@@ -42,7 +42,7 @@ Based on the given set of business requirements the following star schema was de
 
 ![postgers2](screenshots/postgers2.png "postgers2")
 
-### 2-Run the script and verify that all four data files are copied/uploaded into PostgreSQL we can veiw the table in local machine PGAdmin 4
+### 2-Run the script and verify that all four data files are copied/uploaded into PostgreSQL we can view the table in local machine PGAdmin 4
 ![postgres3](screenshots/postgres3.png "postgres3")
 
 ## Fourth Step EXTRACT the data from PostgreSQL
