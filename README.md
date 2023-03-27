@@ -21,8 +21,7 @@ The business outcomes you are designing for are as follows:
 •	Based on how many minutes the rider spends on a bike per month
 ## First Step Create Azure resources
 •	Create an Azure PostgreSQL database
-•	Create an Azure Synapse workspace. Note that if you've previously created a Synapse Workspace, you do not need to create a second one specifically for the project.
-•	Use the built-in serverless SQL pool and database within the Synapse workspace
+•	Create an Azure Synapse workspace. 
 ### 1- Create an Azure PostgreSQL database
 ![postgres1](screenshots/postgres1.png "postgres1")
 
