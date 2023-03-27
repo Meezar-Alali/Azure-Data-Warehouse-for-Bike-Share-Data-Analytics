@@ -57,7 +57,8 @@ And as shown in the screenshot the connection succeeded
 ![links3](screenshots/links3.png "links3")
 ![links4](screenshots/links4.png "links4")
 
-### 3-In our Azure Synapse workspace, we will use the ingest wizard to create a one-time pipeline that ingests the data from PostgreSQL into Azure Blob Storage. This will result in all four tables being represented as text files in Blob Storage, ready for loading into the data warehouse
+### 3-In our Azure Synapse workspace, we will use the ingest wizard to create a one-time pipeline that ingests the data from PostgreSQL into Azure Blob Storage. 
+### This will result in all four tables being represented as text files in Blob Storage, ready for loading into the data warehouse
 
 ![ingesting1](screenshots/ingesting1.png "ingesting1")
 ![ingesting2](screenshots/ingesting2.png "ingesting2")
@@ -68,23 +69,23 @@ And as shown in the screenshot the connection succeeded
 Once in Blob storage, the files will be shown in the data lake node in the Synapse Workspace. 
 ![external1](screenshots/external1.png "external1")
 
-### 1-create external table staging_payment run SQL script file Payment_load.sql 
+### 1-Create external table staging_payment run SQL script file Payment_load.sql 
 ![external2](screenshots/external1.png "external2")
 
-### 2-create external table staging_rider run SQL script file rider_load.sql 
+### 2-Create external table staging_rider run SQL script file rider_load.sql 
 ![external3](screenshots/external3.png "external3")
 
-### 3-create external table staging_station run SQL script file station_load.sql
+### 3-Create external table staging_station run SQL script file station_load.sql
 ![external4](screenshots/external4.png "external4")
 
-### 4-create external table staging_trip run SQL script file trip_load.sql 
+### 4-Create external table staging_trip run SQL script file trip_load.sql 
 ![external5](screenshots/external5.png "external5")
 
 ### Now we notice that the 4 tables are created in EXTERNAL TABLE 
 ![external6](screenshots/external6.png "external6")
 
 ## Sixth Step TRANSFORM the data to the star schema
-### 1- in synapse workspace we go to Develop and we create new SQL script .
+### 1- In synapse workspace we go to Develop and we create new SQL script .
 ![transform1](screenshots/transform1.png "transform1")
 
 ### 2- For the fife tables star schema I had explain in the Second step
