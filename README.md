@@ -47,8 +47,6 @@ Based on the given set of business requirements the following star schema was de
 
 ## Fourth Step EXTRACT the data from PostgreSQL
 
-In our Azure Synapse workspace, we will use the ingest wizard to create a one-time pipeline that ingests the data from PostgreSQL into Azure Blob Storage. This will result in all four tables being represented as text files in Blob Storage, ready for loading into the data warehouse
-
 ### 1-First create link connection to my Postgres database udacityproject
 And as shown in the screenshot the connection succeeded
 ![links1](screenshots/links1.png "links1")
